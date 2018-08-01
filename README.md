@@ -23,4 +23,5 @@ vagrant reload
 ```
 http://localhost:8080/
 http://localhost:8080/phpmyadmin/ (ユーザ名:root, パスワード:無し)
+http://localhost:8081/ (Tomcat)
 ```
