@@ -6,6 +6,9 @@ yum -y update
 setenforce 0
 sed -i -e "s/^SELINUX=enforcing$/SELINUX=disabled/g" /etc/selinux/config
 
+systemctl stop firewalld
+systemctl mask firewalld
+
 timedatectl set-timezone Asia/Tokyo
 
 yum -y install epel-release.noarch
