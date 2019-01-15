@@ -19,3 +19,7 @@ yum -y install sqlite-devel
 rbenv install 2.6.0
 rbenv global 2.6.0
 rbenv rehash
+
+rbenv exec gem install bundler
+rbenv exec gem install rails
+rbenv rehash
